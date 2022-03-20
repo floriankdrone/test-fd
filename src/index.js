@@ -14,7 +14,7 @@ app.use(require('./controllers'));
 // Connect database
 db.connect(() => {
   // Listen for connection
-  app.listen(3000, '0.0.0.0', () => {
+  app.listen(3000, () => {
     console.log('Server listening to port 3000');
   });
 });
