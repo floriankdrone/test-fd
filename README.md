@@ -30,7 +30,7 @@ Example:
 Script:
 
 ```bash
-curl --location --request POST 'http://localhost:3000/' \
+curl --location --request POST 'https://polar-spire-71523.herokuapp.com/' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "startDate": "2016-01-26",
