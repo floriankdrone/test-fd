@@ -5,6 +5,11 @@ const internalError = {
   msg: 'Internal error',
 };
 
+const notFound = {
+  code: -30404,
+  msg: "Not found",
+};
+
 const badRequest = {
   code: -30400,
   msg: 'Bad request',
@@ -13,4 +18,5 @@ const badRequest = {
 module.exports = {
   internalError,
   badRequest,
+  notFound,
 };

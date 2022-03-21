@@ -15,6 +15,6 @@ app.use(require('./controllers'));
 db.connect(() => {
   // Listen for connection
   app.listen(process.env.PORT || 5000, () => {
-    console.log('Server listening to port 3000');
+    console.log(`Server listening to port ${process.env.PORT || 5000}`);
   });
 });

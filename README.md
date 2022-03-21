@@ -47,6 +47,11 @@ curl --location --request POST 'https://polar-spire-71523.herokuapp.com/' \
 `Bad request`
 Request has invalid parameters
 
+### -30404
+
+`Not found`
+Request url not found
+
 ### -30500
 
 `Internal error`

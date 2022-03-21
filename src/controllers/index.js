@@ -29,4 +29,8 @@ router.post('/', (req, res, next) => {
   res.json(recordData);
 });
 
+router.all("*", (req, res) => {
+  res.status(404).json(errors.notFound);
+});
+
 module.exports = router;
